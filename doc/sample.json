@@ -1,0 +1,24 @@
+[
+    {
+        "vaccinationCenterPk": 273438623037989,
+        "name": "IZ Georgsmarienh\u00fctte",
+        "streetName": "Leimbrink",
+        "streetNumber": "1-3",
+        "zipcode": "49124",
+        "city": "Georgsmarienh\u00fctte",
+        "scheduleSaturday": true,
+        "scheduleSunday": false,
+        "vaccinationCenterType": 0,
+        "vaccineName": "Moderna",
+        "vaccineType": "mRNA",
+        "interval1to2": 42,
+        "offsetStart2Appointment": 0,
+        "offsetEnd2Appointment": 5,
+        "distance": 5,
+        "outOfStock": false,
+        "firstAppoinmentDateSorterOnline": 1622066400000,
+        "freeSlotSizeOnline": 2,
+        "maxFreeSlotPerDay": 1,
+        "publicAppointment": true
+    }
+]
