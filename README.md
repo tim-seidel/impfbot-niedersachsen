@@ -7,15 +7,17 @@ Website des Portals: https://www.impfportal-niedersachsen.de
 ## **Wichtig**
 Dieser Bot ist ein Hobbyprojekt und aus privatem Interesse und zum privaten Nutzen erstellt worden. Er verwendet eine öffentliche Schnittstelle. Solltet ihr den Bot selber verwenden wollen, macht dies bitte gewissenhaft und in vernünftigen Intervallen.
 
-## Verwendet python
+
+
+## Setup & Ausführen
+### Python
 - python3 (https://www.python.org/)
 - Package python-telegram-bot muss installiert werden (https://github.com/python-telegram-bot/python-telegram-bot)  
 Installieren mit: `pip3 install python-telegram-bot`
 
-## Setup & Ausführen
 ### Telegram-Bot
 - Bot mit @botfather erstellen (https://t.me/botfather)
-- Kommunikation mit dem Bot in den gewünschten Empfänger-Accounts starten (https://telegram.me/deine-bot-id)
+- Kommunikation mit dem Bot in den gewünschten Empfänger-Accounts starten (https://t.me/deine-bot-id)
 - Zum Versenden der Botnachrichten werden die User-IDs der Empfänger benötigt. Diese können mit dem @userinfobot anzeigt werden (https://t.me/userinfobot)
 
 ### Bot-Parameter
