@@ -3,12 +3,14 @@ plz = 12345
 birthdate = "01.01.1970"
 
 # Request
-retry_count = 5
 request_interval = 5*60 # Sekunden
-request_interval_ipban = 2*60*60 # Sekunden
+
 request_interval_overnight = 60*60 # Sekunden, Drosseln der Abfragehäufigkeit über Nacht
 night_start = 19
 night_end = 7
+
+request_interval_ipban = 2*60*60 # Sekunden
+retry_count = 5 # Wiederholungen bei ungültigen Antworten z.B. Captcha
 
 # Telegram
 bot_token = "TOKEN" # Ein Impfbot kann mit dem "BotFather" erstellt werden
