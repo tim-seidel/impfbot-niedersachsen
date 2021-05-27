@@ -20,6 +20,7 @@ def process_message(msg, is_important=False) -> None:
 
 def has_vaccine_in_stock(vc_list) -> bool:
     for vc in vc_list:
+        logger.info(vc['name']  + ": outOfStock: " + str(vc['outOfStock']) + ", freeSlotSizeOnline: " + (str(vc['freeSlotSizeOnline']) if 'freeSlotSizeOnline' in vc else "0"))
         if not vc['outOfStock']:
             return True
     return False
