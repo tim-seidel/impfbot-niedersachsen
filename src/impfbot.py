@@ -34,8 +34,8 @@ def message_vaccince_in_stock(vc_list) -> None:
                     "Impftermine verfügbar!\n" +
                     "Impfzentrum: " + vc['name'] + "\n" + 
                     "Impfstoff: "   + vc['vaccineName'] + "\n" +
-                    "Freie Termine: " + str(vc['freeSlotSizeOnline'] + "\n"
-                    "Website: https://www.impfportal-niedersachsen.de/portal/#/appointment/public"), 
+                    "Freie Termine: " + str(vc['freeSlotSizeOnline']) + "\n"
+                    "Website: https://www.impfportal-niedersachsen.de/portal/#/appointment/public", 
                     True
                 )
     except Exception as e:
