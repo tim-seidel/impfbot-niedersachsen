@@ -7,8 +7,6 @@ Website des Portals: https://www.impfportal-niedersachsen.de
 ## **Wichtig**
 Dieser Bot ist ein Hobbyprojekt und aus privatem Interesse und zum privaten Nutzen erstellt worden. Er verwendet eine öffentliche Schnittstelle. Solltet ihr den Bot selber verwenden wollen, macht dies bitte gewissenhaft und in vernünftigen Intervallen.
 
-
-
 ## Setup & Ausführen
 ### Python
 - python3 (https://www.python.org/)
@@ -27,4 +25,3 @@ Installieren mit: `pip3 install python-telegram-bot`
 
 ### Starten
 - Starten mit `python3 src/impfbot.py`
-
